@@ -14,18 +14,20 @@ class MainTabBarController: UITabBarController {
         
         let listViewController = ListViewController()
         let peopleViewController = PeopleViewController()
-        tabBar.layer.borderWidth = 1
-        tabBar.tintColor = .purple
+        
+        tabBar.tintColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
+        tabBar.backgroundColor = .white
+        navigationController?.navigationBar.barTintColor = .green
+        
+        
         let boldConfig = UIImage.SymbolConfiguration(weight: .medium)
+        let convImage = UIImage(systemName: "bubble.left.and.bubble.right", withConfiguration: boldConfig)!
         let peopleImage = UIImage(systemName: "person.2", withConfiguration: boldConfig)!
-        let listImage = UIImage(systemName: "bubble.left.and.bubble.right", withConfiguration: boldConfig)!
         
         viewControllers = [
-            
-            generateNavigationController(rootViewController: listViewController, title: "Conversations", image: listImage),
+            generateNavigationController(rootViewController: listViewController, title: "Conversations", image: convImage),
             generateNavigationController(rootViewController: peopleViewController, title: "People", image: peopleImage)
-            
-            ]
+        ]
     }
     
     private func generateNavigationController(rootViewController: UIViewController, title: String, image: UIImage) -> UIViewController {

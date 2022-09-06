@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1F407E28C7337700D0CE6E /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F407D28C7337700D0CE6E /* Decodable.swift */; };
+		7E1F408028C7340000D0CE6E /* activeChats.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E1F407F28C7340000D0CE6E /* activeChats.json */; };
+		7E1F408228C7340800D0CE6E /* waitingChats.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E1F408128C7340800D0CE6E /* waitingChats.json */; };
 		7E4103DD28AFD37C0051AF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4103DC28AFD37C0051AF7E /* AppDelegate.swift */; };
 		7E4103DF28AFD37C0051AF7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4103DE28AFD37C0051AF7E /* SceneDelegate.swift */; };
 		7E4103E128AFD37C0051AF7E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4103E028AFD37C0051AF7E /* AuthViewController.swift */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E1F407D28C7337700D0CE6E /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		7E1F407F28C7340000D0CE6E /* activeChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = activeChats.json; path = "../../../../../../Downloads/15. урок/IChat/Extensions/UIKIt/activeChats.json"; sourceTree = "<group>"; };
+		7E1F408128C7340800D0CE6E /* waitingChats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waitingChats.json; path = "../../../../../../Downloads/15. урок/IChat/Extensions/UIKIt/waitingChats.json"; sourceTree = "<group>"; };
 		7E4103D928AFD37C0051AF7E /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4103DC28AFD37C0051AF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E4103DE28AFD37C0051AF7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +149,8 @@
 				7ECA841128B122BB00E0DCC7 /* SegmentedControl + Extension.swift */,
 				7E41040E28AFDBCA0051AF7E /* UIFont + Extension.swift */,
 				7E41040C28AFD9440051AF7E /* UIButton + Extension.swift */,
+				7E1F408128C7340800D0CE6E /* waitingChats.json */,
+				7E1F407F28C7340000D0CE6E /* activeChats.json */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				7E41041828AFE2AF0051AF7E /* ButtonFormView.swift */,
+				7E1F407D28C7337700D0CE6E /* Decodable.swift */,
 				7E41041E28AFEE310051AF7E /* TextField.swift */,
 				7ECA840F28B0F43A00E0DCC7 /* AddPhotoView.swift */,
 				7E41041628AFE04B0051AF7E /* UIKit */,
@@ -173,8 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				7E5B63D128B25EB900A97315 /* MainTabBarController.swift */,
-				7E5B63D328B25F1900A97315 /* PeopleViewController.swift */,
 				7E5B63CD28B25A9B00A97315 /* ListViewController.swift */,
+				7E5B63D328B25F1900A97315 /* PeopleViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -284,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E4103E928AFD37D0051AF7E /* LaunchScreen.storyboard in Resources */,
+				7E1F408028C7340000D0CE6E /* activeChats.json in Resources */,
 				7E4103E628AFD37D0051AF7E /* Assets.xcassets in Resources */,
+				7E1F408228C7340800D0CE6E /* waitingChats.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +333,7 @@
 				7ECA841028B0F43A00E0DCC7 /* AddPhotoView.swift in Sources */,
 				7E41041528AFDF220051AF7E /* UIImageView + Extension.swift in Sources */,
 				7E41041128AFDC7A0051AF7E /* UIColor + Extension.swift in Sources */,
+				7E1F407E28C7337700D0CE6E /* Decodable.swift in Sources */,
 				7ECA841228B122BB00E0DCC7 /* SegmentedControl + Extension.swift in Sources */,
 				7E4103DF28AFD37C0051AF7E /* SceneDelegate.swift in Sources */,
 				7E41040D28AFD9440051AF7E /* UIButton + Extension.swift in Sources */,

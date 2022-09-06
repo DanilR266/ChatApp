@@ -17,4 +17,7 @@ extension UIColor {
     static func buttonDark() -> UIColor {
         return UIColor(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
     }
+    static func mainWhite() -> UIColor {
+        return #colorLiteral(red: 0.968627451, green: 0.9725490196, blue: 0.9921568627, alpha: 1)
+    }
 }
